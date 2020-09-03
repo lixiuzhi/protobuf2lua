@@ -1,0 +1,24 @@
+package com.proto;
+
+message ServerInfo {
+	optional int32 id 					= 1;//服务器id
+	optional int32 beId 				= 2;
+	string name 						= 3;
+}
+
+//基础信息
+message PlayerBaseInfo {
+	optional int64 playerId			= 2; //角色id
+	optional string playerName		= 3; //名字
+	optional int32 sex				= 4; //性别
+	optional int32 headId			= 5; //头像
+	optional int32 level			= 6; //等级
+	optional int64 exp				= 7; //经验
+	optional int32 vipLevel			= 8; //vip等级
+}
+
+
+//属性信息
+message AttributeInfo {
+
+}

@@ -1,0 +1,11 @@
+{
+  "LogLevel":"INFO",
+  "ProtoPath":"test", 
+  "ExcludeFiles":"ServerMessage.proto",
+  "ExportLua":true,
+  "ExportLuaPath":  "output/lua",
+  "MsgIDEnumName":  "MsgID",
+  "MsgIDInMsg":  true,
+  "ExportEmmyluaAPI":true,
+  "ExportEmmyluaAPIPath":  "output/emmylua"
+}
