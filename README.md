@@ -1,0 +1,2 @@
+# protobuf2lua
+将protobuf协议导出lua格式，支持消息id导出，生成lua枚举table，生成消息名称table，生成消息id和名字的对应关系table，生成emmylua提示文件
